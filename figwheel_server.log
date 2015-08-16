@@ -1,0 +1,1579 @@
+Figwheel: focusing on build-ids (build_needs_id_16241)
+[0mCompiling "js/main.js" from ["src"]...
+[32mSuccessfully compiled "js/main.js" in 0.158 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "js/main.js" from ["src"]...
+[32mSuccessfully compiled "js/main.js" in 0.209 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "js/main.js" from ["src"]...
+[32mSuccessfully compiled "js/main.js" in 0.335 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.346 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.2 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.184 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.2 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.181 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Unmatched delimiter ] on file C:\Users\ericf\src\automata\src\automata\core.cljs, line 6, column 55
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.195 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Nested #()s are not allowed on file C:\Users\ericf\src\automata\src\automata\core.cljs, line 6, column 52
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.192 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.193 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Invalid token: q/ on file C:\Users\ericf\src\automata\src\automata\core.cljs, line 28, column 6
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.189 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.18 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.169 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.178 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to quil.core/rect at line 35 src\automata\core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to quil.core/rect at line 36 src\automata\core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 1.003 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to cljs.core/iterate at line 35 src\automata\core.cljs
+WARNING: Use of undeclared Var automata.core/% at line 36 src\automata\core.cljs
+WARNING: Wrong number of args (0) passed to quil.core/rect at line 39 src\automata\core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (0) passed to quil.core/rect at line 39 src\automata\core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.218 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.186 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.173 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.169 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.176 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.173 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var quil.core/size at line 22 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.222 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var quil.core/size at line 22 src\automata\core.cljs
+WARNING: Use of undeclared Var automata.core/size at line 27 src\automata\core.cljs
+WARNING: Use of undeclared Var automata.core/size at line 39 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.201 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/row->cords at line 23 src\automata\core.cljs
+WARNING: Use of undeclared Var automata.core/size at line 23 src\automata\core.cljs
+WARNING: Use of undeclared Var automata.core/size at line 28 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.215 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/row->cords at line 23 src\automata\core.cljs
+WARNING: Use of undeclared Var automata.core/size at line 28 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.186 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/size at line 34 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.175 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.163 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.19 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.16 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/x at line 19 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.18 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.157 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.154 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to cljs.core/iterate at line 23 src\automata\core.cljs
+WARNING: Wrong number of args (1) passed to cljs.core/into at line 24 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.233 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to cljs.core/iterate at line 23 src\automata\core.cljs
+WARNING: Wrong number of args (0) passed to automata.core/row->cords at line 24 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.218 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.169 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.157 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (0) passed to cljs.core/zipmap at line 39 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.193 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (0) passed to cljs.core/map at line 39 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.198 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.202 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.215 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.194 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var cljs.core/fn at line 59 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.263 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Unmatched delimiter ) on file C:\Users\ericf\src\automata\src\automata\core.cljs, line 59, column 48
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.191 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.195 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.205 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.185 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.189 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.172 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.223 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.179 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/world-size at line 89 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.226 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.203 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.273 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/log at line 80 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.203 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.175 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.19 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.172 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.209 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.182 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.206 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.176 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.214 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.332 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/log at line 52 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.208 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (3) passed to automata.core/log at line 56 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.201 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.177 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.186 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.174 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.174 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.186 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.189 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.183 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.197 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.173 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.214 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.17 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.244 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.177 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.181 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.18 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.287 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.19 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.176 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.257 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.178 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.262 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.17 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.261 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.172 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.193 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.167 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.166 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.187 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.353 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.188 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.174 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.179 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.178 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.214 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.218 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.197 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.183 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.257 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.177 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.182 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.168 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.173 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.187 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.2 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.166 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.184 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.191 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.177 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.166 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.249 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.285 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.188 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.171 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.19 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.256 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/cur-hood at line 80 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.188 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/cur-hood at line 86 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.189 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/ast at line 89 src\automata\core.cljs
+WARNING: Use of undeclared Var automata.core/ast at line 89 src\automata\core.cljs
+WARNING: Use of undeclared Var automata.core/cur-hood at line 89 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.22 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.15 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.119 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.127 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.IllegalArgumentException: cond requires an even number of forms, compiling:(\automata\rules.clj:13:5)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2785)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2785)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.IllegalArgumentException: cond requires an even number of forms, compiling:(\automata\rules.clj:12:5)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2785)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2785)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.IllegalArgumentException: cond requires an even number of forms, compiling:(\automata\rules.clj:19:5)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2785)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2785)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.IllegalArgumentException: cond requires an even number of forms, compiling:(\automata\rules.clj:33:5)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$IfExpr$Parser.parse (Compiler.java:2785)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+java.lang.AssertionError: No ns form found in src\automata\rules.cljs
+ at cljs.analyzer$parse_ns$fn__2108.invoke (analyzer.cljc:2706)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2660)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2651)
+    cljs.compiler$compile_root$fn__3128.invoke (compiler.cljc:1284)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core.protocols/fn (protocols.clj:170)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.cljc:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.cljc:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1283)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.163 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\rules.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.135 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/cur-hood at line 76 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.241 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.21 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.474 seconds.[0m
+notifying browser that file changed:  \automata\rules.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.213 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.265 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.215 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.254 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/new-cord at line 83 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.247 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/new-cord at line 83 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.208 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.184 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.184 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/wrapp at line 84 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.205 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.192 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.2 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.189 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.186 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.186 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Use of undeclared Var automata.core/% at line 89 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.22 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.188 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.183 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to cljs.core/mapv at line 95 src\automata\core.cljs
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.187 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.193 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.359 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.197 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.256 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.195 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.19 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.203 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.216 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (2) passed to automata.core/log at line 104 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.235 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.191 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.199 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+ERROR: Invalid token: : on file C:\Users\ericf\src\automata\src\automata\core.cljs, line 146, column 3
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.252 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.197 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.2 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.29 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.206 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.195 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.243 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.208 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to automata.core/get-hood at line 101 src\automata\core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.266 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.204 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.2 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.293 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.203 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.197 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.258 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.183 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\automata\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3104.invoke (compiler.cljc:1254)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1216)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1291)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:478)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15791$state_machine__9311__auto____15792$fn__15797.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.224 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.196 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.257 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.197 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.217 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.201 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.193 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.193 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.187 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.195 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.191 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.201 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.192 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.243 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.204 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.188 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.201 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.218 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.142 seconds.[0m
+notifying browser that file changed:  \automata\rules.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.192 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.144 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\rules.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.274 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.204 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.204 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.153 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\rules.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.197 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.208 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.201 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.179 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\rules.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.324 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.201 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.19 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.278 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.297 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.267 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.209 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.198 seconds.[0m
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.193 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  \automata\core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.[0m
+java.io.FileNotFoundException: src (The system cannot find the file specified)
+ at java.io.FileInputStream.open0 (FileInputStream.java:-2)
+    java.io.FileInputStream.open (FileInputStream.java:195)
+    java.io.FileInputStream.<init> (FileInputStream.java:138)
+    clojure.java.io/fn (io.clj:229)
+    clojure.java.io$fn__9102$G__9095__9109.invoke (io.clj:69)
+    clojure.java.io/fn (io.clj:165)
+    clojure.java.io$fn__9115$G__9091__9122.invoke (io.clj:69)
+    clojure.java.io$reader.doInvoke (io.clj:102)
+    clojure.lang.RestFn.invoke (RestFn.java:410)
+    cljs.closure$compile_file.invoke (closure.clj:429)
+    cljs.closure$eval3547$fn__3548.invoke (closure.clj:479)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    cljs.closure$eval3560$fn__3561.invoke (closure.clj:492)
+    cljs.closure$eval3499$fn__3500$G__3490__3507.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1671)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15891.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15937.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15888.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15684.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15690.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15693.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15687.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15705.invoke (auto.clj:103)
