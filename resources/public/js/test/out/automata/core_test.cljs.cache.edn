@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 1.7.48
+{:name automata.core-test, :doc nil, :excludes #{}, :use-macros {testing cljs.test, is cljs.test, deftest cljs.test}, :require-macros {cljs.test cljs.test}, :uses nil, :requires {cljs.test cljs.test, c automata.core, automata.core automata.core}, :imports nil}

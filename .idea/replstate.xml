@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ReplState" timestamp="1439688186167">{:repl-history {:ide [], :local [&quot;(into [] (repeatedly #(identity 1)))&quot; &quot;(into [] (repeatedly 3 #(identity 2)))&quot; &quot;(repeatedly 4 #\n    (into [] (repeatedly 3 #(identity 2))))&quot; &quot;(repeatedly 4 #(into [] (repeatedly 3 #(identity 2))))&quot; &quot;(repeatedly 4 (fn [] (\n                       into [] (repeatedly 3 #(identity 2)))))&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1440035676228">{:repl-history {:ide [], :local [&quot;(into [] (repeatedly #(identity 1)))&quot; &quot;(into [] (repeatedly 3 #(identity 2)))&quot; &quot;(repeatedly 4 #\n    (into [] (repeatedly 3 #(identity 2))))&quot; &quot;(repeatedly 4 #(into [] (repeatedly 3 #(identity 2))))&quot; &quot;(repeatedly 4 (fn [] (\n                       into [] (repeatedly 3 #(identity 2)))))&quot;], :remote []}}</component>
 </project>

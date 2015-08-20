@@ -14,15 +14,16 @@
       <excludeFolder url="file://$MODULE_DIR$/resources/public/js" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Leiningen: clojure-complete:0.2.3" level="project" />
     <orderEntry type="library" name="Leiningen: figwheel-sidecar:0.3.6" level="project" />
     <orderEntry type="library" name="Leiningen: figwheel:0.3.6" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.7.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojurescript:1.7.48" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.async:0.1.346.0-17112a-alpha" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.6" level="project" />
     <orderEntry type="library" name="Leiningen: quil:2.2.6" level="project" />
+    <orderEntry type="library" name="Leiningen: rm-hull/monet:0.2.1" level="project" />
     <orderEntry type="library" name="Leiningen: clj-stacktrace:0.2.8" level="project" />
     <orderEntry type="library" name="Leiningen: cljsbuild:1.0.5" level="project" />
     <orderEntry type="library" name="Leiningen: clojurescript-build:0.1.7" level="project" />
@@ -73,13 +74,6 @@
     <orderEntry type="library" name="Leiningen: crypto-equality:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: crypto-random:1.2.0" level="project" />
     <orderEntry type="library" name="Leiningen: joda-time:2.2" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/core.async:0.1.346.0-17112a-alpha" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/tools.analyzer.jvm:0.1.0-beta12" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/core.memoize:0.5.6" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/tools.analyzer:0.1.0-beta12" level="project" />
-    <orderEntry type="library" name="Leiningen: org.ow2.asm/asm-all:4.1" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/core.cache:0.6.3" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/data.priority-map:0.0.2" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler:v20150729" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.json:0.2.6" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/google-closure-library:0.0-20150805-acd8b553" level="project" />
@@ -92,6 +86,12 @@
     <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-externs:v20150729" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.protobuf/protobuf-java:2.5.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/google-closure-library-third-party:0.0-20150805-acd8b553" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/tools.analyzer.jvm:0.1.0-beta12" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.memoize:0.5.6" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/tools.analyzer:0.1.0-beta12" level="project" />
+    <orderEntry type="library" name="Leiningen: org.ow2.asm/asm-all:4.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.cache:0.6.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/data.priority-map:0.0.2" level="project" />
     <orderEntry type="library" name="Leiningen: com.lowagie/itext:2.1.7" level="project" />
     <orderEntry type="library" name="Leiningen: quil/gluegen-rt-fat:2.1.5" level="project" />
     <orderEntry type="library" name="Leiningen: quil/jogl-all-fat:2.1.5" level="project" />

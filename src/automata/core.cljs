@@ -1,5 +1,8 @@
 (ns automata.core
+  (:require-macros [cljs.core.async.macros :refer [go go-loop ]])
   (:require [quil.core :as q :include-macros true]
+            [monet.canvas :as canvas]
+            [cljs.core.async :refer [put! chan alts! <! timeout]]
             [automata.rules :as rules]
             [quil.middleware :as m]))
 
@@ -17,10 +20,20 @@
                                         #(if (= 1 (rand-int 7)) 1 0)
                                         #(identity 0))))))))
 
-(def world-x 100)
-(def world-y 100)
+
+(def canvas-dom (.getElementById js/document "monet"))
+
+(def monet-canvas (canvas/init canvas-dom "2d" ))
+
+(def world-x 50)
+(def world-y 50)
+
+
+(def state (atom {:world         (build-world world-x world-y :rand true)
+                  :update-ready? false}))
 
 (defn sq-size [] (/ (q/width) world-x))
+
 
 
 (defn row->cords [in-y size]
@@ -61,7 +74,7 @@
 
 (defn cell->color [cell]
   (case cell
-        0 [0 0 255]
+        0 [0 1 255]
         1 [0 0 0]))
 
 (def offsets
@@ -79,9 +92,9 @@
     (mapv wrapper new-cord)))
 
 (defn cord->hood-cords [offset-coll wrapper cord]
-  (mapv
+  (map
     (fn  [off-row]
-      (mapv (partial do-offset wrapper)
+      (map (partial do-offset wrapper)
             off-row
             (repeatedly #(identity cord))))
     offset-coll))
@@ -94,7 +107,7 @@
                              :or   {min     0
                                     getter  (partial get-hood world)
                                     max     (dec (count world))
-                                    wrapper (partial wrap min max)}}]
+                                    wrapper (memoize (partial wrap min max))}}]
   (let [rows (gen-rows (count world) 1)]
     (map (fn [row]
         (map (fn [cord]
@@ -104,11 +117,13 @@
 
 
 
-;; rule :: hood -> bool
-(defn hood->next-cell [hood rules]
+;; rule :: hood -> int
+(defn -hood->next-cell [hood rules]
   (let [live (reduce (fn [last this-rule]
                   (and last (this-rule hood))) true rules)]
     (if live 1 0)))
+
+(def hood->next-cell (memoize -hood->next-cell))
 
 (defn hoods->next-world [hoods rules]
   "takes all of the hoods and returns a new world"
@@ -146,13 +161,19 @@
    :x     world-x
    :y     world-y})
 
+(defn step-world [world rules]
+  (hoods->next-world (world->hoods world) rules)
+  )
+
+(set-print-fn! log)
 (defn update-state [{:keys [world] :as state}]
   ; update changes things
   ; Update sketch state by changing circle color and position.
 
   ;(log (hoods->next-world (world->hoods world) rules/rules))
-  (assoc state :world (hoods->next-world (world->hoods world) rules/rules))
-  )
+    (let [new-world (step-world world rules/rules)]
+      (assoc state :world new-world)))
+
 
 (defn draw-state [{:keys [world size color x y]  :as state}]
 
@@ -161,6 +182,7 @@
   ; Set circle color.
   state
  )
+
 
 (q/defsketch automata
   :host "automata"
@@ -175,4 +197,39 @@
   ; fun-mode.
   :middleware [m/fun-mode])
 
+(def event-channel  (chan))
+
+(defn start-update-looper []
+  (go-loop []
+           (<! (timeout 100))
+           (>! event-channel {:event :update } )
+           (recur)
+           ))
+
+(defmulti handle-event (fn [e] (:event e)))
+(enable-console-print!)
+(defmethod handle-event :update [{:keys [world ] :as state}]
+  (let [new-world (step-world world rules/rules)]
+      (assoc state :world new-world))
+  )
+
+(defn start-handler-loop []
+  (go-loop [ev (<! event-channel)]
+           (handle-event ev state)
+           (recur (<! event-channel))
+           ))
+
+(start-update-looper)
+(start-handler-loop)
+(canvas/add-entity monet-canvas :backgroundColor
+                   (canvas/entity {:x 0
+                                   :y 9
+                                   :w 599
+                                   :h 488}
+                                   nil
+                                   (fn [ctx val]
+                                     (-> ctx
+                                         (canvas/fill-style "#191d21")
+                                         (canvas/fill-rect val)))
+                                   ))
 
